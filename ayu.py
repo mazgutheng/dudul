@@ -6,7 +6,6 @@ from multiprocessing import Pool, Process
 from datetime import datetime, timedelta
 from time import sleep
 from bs4 import BeautifulSoup
-from ffmpy import FFmpeg
 import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, pytz, html5lib, traceback, atexit
 import urllib, urllib3
 from gtts import gTTS
